@@ -1,0 +1,13 @@
+assets
+assets.tar
+assets.tar.gz
+media
+media.tar
+media.tar.gz
+node_modules
+dist
+pub.tar.gz
+dist.tar.gz
+prod
+.env
+ref

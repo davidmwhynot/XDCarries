@@ -1,0 +1,40 @@
+{
+  "name": "TODO",
+  "version": "1.0.0",
+  "private": true,
+  "description": "TODO ecommerce website",
+  "main": "server.js",
+  "scripts": {
+    "start": "set DEBUG=TODO:* & set DEBUG_HIDE_DATE=1 & set DEBUG_COLORS=1 & gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "David Whynot",
+  "dependencies": {
+    "bcrypt": "^3.0.2",
+    "body-parser": "^1.18.3",
+    "browser-sync": "^2.26.3",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^2.0.1",
+    "csurf": "^1.9.0",
+    "debug": "^4.1.0",
+    "dotenv": "^6.1.0",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.15.6",
+    "express-validator": "^5.3.0",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-nodemon": "^2.4.1",
+    "gulp-sass": "^4.0.2",
+    "handlebars": "^4.0.12",
+    "handlebars-helpers": "^0.10.0",
+    "http-errors": "^1.7.1",
+    "mongoose": "^5.3.12",
+    "morgan": "^1.9.1",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "serve-favicon": "^2.5.0",
+    "stripe": "^6.15.0"
+  }
+}
