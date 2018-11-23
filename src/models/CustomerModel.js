@@ -1,7 +1,7 @@
 /*
 
-	title: User.js
-	desc: Database model for User login credentials
+	title: CustomerModel.js
+	desc: Database model for Customer data
 	author: David Whynot
 	email: davidmwhynot@gmail.com
 	Project: TODO
@@ -12,7 +12,7 @@
 
 
 /* XXX IMPORTS XXX */
-const mongoose = require("mongoose");
+const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 
@@ -20,11 +20,19 @@ const Schema = mongoose.Schema;
 
 /* XXX MAIN XXX */
 const schema = new Schema({
-  email: {
+	user: {
 		type: String,
 		required: true
 	},
-  password: {
+	cart: {
+		type: Object,
+		required: true
+	},
+	address: {
+		type: Object,
+		required: true
+	},
+	paymentId: {
 		type: String,
 		required: true
 	}
@@ -34,4 +42,4 @@ const schema = new Schema({
 
 
 /* XXX EXPORTS XXX */
-module.exports = mongoose.model('User', schema);
+module.exports = mongoose.model('Customer', schema);

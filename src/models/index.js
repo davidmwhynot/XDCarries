@@ -12,6 +12,7 @@
 
 
 /* XXX IMPORTS XXX */
+const LoginModel = require('./LoginModel');
 const UserModel = require('./UserModel');
 const OrderModel = require('./OrderModel');
 const CartModel = require('./CartModel');
@@ -22,6 +23,7 @@ const ProductModel = require('./ProductModel');
 
 /* XXX EXPORTS XXX */
 module.exports = {
+	LoginModel,
 	UserModel,
 	OrderModel,
 	CartModel,
